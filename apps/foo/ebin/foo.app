@@ -1,0 +1,8 @@
+{application,foo,
+             [{description,"Foo test application"},
+              {vsn,"0.1"},
+              {registered,[]},
+              {applications,[kernel,stdlib,crypto,amqp_client]},
+              {mod,{foo_app,[]}},
+              {env,[]},
+              {modules,[foo,foo_app,foo_sup]}]}.

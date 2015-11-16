@@ -1,0 +1,4 @@
+:name "erl_potato"
+:lib-dirs '("apps" "deps" "lib")
+:app-include-dirs '("include")
+:project-include-dirs '("deps/amqp_client/include")
